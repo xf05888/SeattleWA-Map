@@ -38,6 +38,5 @@ draw = ImageDraw.Draw(resultImage)
 draw.text((5, ysize*256-15), attribution, (0,0,0))
 del draw
 
-now = datetime.datetime.now()
 outputFileName = "Seattle.png"
 resultImage.save(outputFileName)
